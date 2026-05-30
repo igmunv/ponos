@@ -59,7 +59,7 @@ make_iso:
 
 
 run:
-	qemu-system-i386 -no-reboot -no-shutdown -monitor stdio \
+	qemu-system-x86_64 -no-reboot -no-shutdown -monitor stdio \
 	-drive file=output/kernel.iso,format=raw,if=ide,index=1,media=cdrom \
 	-d int,cpu_reset -D qemu.log \
 	-boot d

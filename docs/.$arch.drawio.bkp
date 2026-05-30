@@ -1,0 +1,76 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="V6BOdwXit9YxvTAcBztd">
+    <mxGraphModel dx="1088" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="inHvDtNMHdMNfldLmiDd-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="100" width="160" x="580" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="60" width="280" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-20" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="inHvDtNMHdMNfldLmiDd-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="140" width="160" x="580" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;План действий:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;strike&gt;Прерывания (база)&lt;/strike&gt;&lt;/li&gt;&lt;li&gt;Менеджер устройств&lt;/li&gt;&lt;li&gt;Менеджер драйверов&lt;/li&gt;&lt;li&gt;Регистрация legacy устройств&lt;/li&gt;&lt;li&gt;PCI-драйвер&lt;/li&gt;&lt;li&gt;Регистрация PCI-устройств&lt;/li&gt;&lt;li&gt;Регистрация virtual устройств&lt;/li&gt;&lt;li&gt;API для программ и kernel-компонентов&lt;/li&gt;&lt;li&gt;ATA-драйвер&lt;/li&gt;&lt;li&gt;Запись программ на диск&lt;/li&gt;&lt;li&gt;Чтение программ с диска&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="290" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-7" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#808080;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;GRUB&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-8" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;&lt;b&gt;GDT init&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-9" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;&lt;b&gt;Interrupt init&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-11" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;b&gt;API init&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-13" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-15" edge="1" parent="1" source="inHvDtNMHdMNfldLmiDd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="inHvDtNMHdMNfldLmiDd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;b&gt;Device Registration&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;b&gt;Driver Find&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="760" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;b&gt;Programs Find&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;b&gt;Start first program&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="600" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="System Init" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Device Manager" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="inHvDtNMHdMNfldLmiDd-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Program Manager" vertex="1">
+          <mxGeometry height="40" width="120" x="460" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
