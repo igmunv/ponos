@@ -1,0 +1,30 @@
+ENTRY(kmain)
+
+SECTIONS
+{
+
+    /* Для GRUB */
+    .multiboot :{
+    *(.multiboot)
+    }
+
+    /* Основной код и данные ОС */
+    . = 0x10000;
+    .text : {
+    *(.text)
+    }
+
+    .rodata : {
+    *(.rodata*)
+    }
+
+    .data : {
+    *(.data)
+    }
+
+    .bss : {
+    *(.bss)
+    *(COMMON)
+    }
+
+}
