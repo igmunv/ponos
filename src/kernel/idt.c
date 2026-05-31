@@ -1,6 +1,6 @@
 #include "idt.h"
 
-#include "asm.h"
+#include "../libs/asm.h"
 
 
 void interrupt_disable(){

@@ -1,3 +1,7 @@
+*log
+
+output/
+
 # Prerequisites
 *.d
 

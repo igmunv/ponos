@@ -34,8 +34,19 @@ all:
 
 kernel:
 	mkdir -p output/kernel/
-	$(call build-rule,$(FILES_C),src/,output/,.c,.o,$(CC),$(CFLAGS))
-	$(call build-rule,$(FILES_ASM),src/,output/,.asm,.o,$(NS),$(NSFLAGS))
+	$(call build-rule,$(FILES_C),src/,output/kernel/,.c,.o,$(CC),$(CFLAGS))
+	$(call build-rule,$(FILES_ASM),src/,output/kernel/,.asm,.o,$(NS),$(NSFLAGS))
+
+
+libs:
+	mkdir -p output/libs/
+	$(call build-rule,$(FILES_C),src/,output/libs/,.c,.o,$(CC),$(CFLAGS))
+	$(call build-rule,$(FILES_ASM),src/,output/libs/,.asm,.o,$(NS),$(NSFLAGS))
+
+drivers:
+	mkdir -p output/drivers/
+	$(call build-rule,$(FILES_C),src/,output/drivers/,.c,.o,$(CC),$(CFLAGS))
+	$(call build-rule,$(FILES_ASM),src/,output/drivers/,.asm,.o,$(NS),$(NSFLAGS))
 
 link:
 	i386-elf-ld -m elf_i386 -T src/linker.ld --oformat elf32-i386 -o output/kernel.elf $(OBJS)
