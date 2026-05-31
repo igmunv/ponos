@@ -27,4 +27,9 @@ SECTIONS
     *(COMMON)
     }
 
+    . = 0x50000;
+    .program_area : {
+    *(.program_area)
+    }
+
 }

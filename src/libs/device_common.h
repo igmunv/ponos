@@ -16,5 +16,6 @@ enum DEV_LEGACY_CLASSES{
     LEG_KEYBOARD,
     LEG_MOUSE,
     LEG_PIT,
+    LEG_ATA,
     LEG_VGA_TM
 };

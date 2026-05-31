@@ -7,11 +7,12 @@ struct device_desc VGA_TM_DEV_DESC = {LEGACY, LEG_VGA_TM, 0};
 
 void vga_tm_print_text(unsigned char* text, unsigned short size);
 void vga_tm_clear();
-
+void vga_tm_print_symb(unsigned char symbol, unsigned char frg_color, unsigned char bkg_color);
 
 void* VGA_TM_FUNC[] = {
     vga_tm_print_text,
-    vga_tm_clear
+    vga_tm_clear,
+    vga_tm_print_symb
 };
 
 

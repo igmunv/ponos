@@ -54,8 +54,14 @@ struct device_info* devman_device_get_first_by_class(enum DEV_TYPES type, unsign
 void devman_devices_find_legacy(){
     struct device_desc vga_tm_desc = {LEGACY, LEG_VGA_TM, 0};
     devman_device_reg(&vga_tm_desc, 0);
+
     struct device_desc keyboard_desc = {LEGACY, LEG_KEYBOARD, 0};
     devman_device_reg(&keyboard_desc, 0);
+
+    struct device_desc ata_desc = {LEGACY, LEG_ATA, 0};
+    devman_device_reg(&ata_desc, 0);
+
+
 }
 
 void devman_devices_find_virtual(){
