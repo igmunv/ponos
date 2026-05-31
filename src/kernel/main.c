@@ -51,6 +51,9 @@ int kmain(){
     }
 
 
+    progman_program_run(0);
+
+
     // unsigned char ata_buffer[512] = {};
     // _ata_read_sector((unsigned int)ata_buffer,0,1);
     //

@@ -31,4 +31,8 @@ SECTIONS
     *(COMMON)
     }
 
+    .trailer : {
+        *(.trailer)
+    }
+
 }
