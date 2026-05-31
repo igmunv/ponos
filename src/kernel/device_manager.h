@@ -19,4 +19,6 @@ struct device_info* devman_device_get_by_class(enum DEV_TYPES type, unsigned int
 
 struct device_info* devman_device_get_by_subclass(enum DEV_TYPES type, unsigned int class, unsigned int subclass);
 
+struct device_info* devman_device_get_first_by_class(enum DEV_TYPES type, unsigned int class);
+
 void devman_devices_find();

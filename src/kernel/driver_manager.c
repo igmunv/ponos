@@ -1,4 +1,5 @@
 #include "driver_manager.h"
+#include "../api/kapi.h"
 
 unsigned short DRIVER_COUNT = 0;
 
@@ -13,6 +14,7 @@ void drvman_driver_reg(struct device_desc dev_desc, void* probe, void* funcs){
 
     DRIVERS[DRIVER_COUNT] = driver;
     DRIVER_COUNT++;
+
 }
 
 struct driver_info* drvman_driver_get(struct device_desc* desc, void* data){
@@ -28,7 +30,10 @@ struct driver_info* drvman_driver_get(struct device_desc* desc, void* data){
         probe_func_prot* driver_probe = (probe_func_prot*)(driver->probe);
 
         if (desc->type == drv_desc->type && desc->class == drv_desc->class && desc->subclass == drv_desc->subclass){
-            if (driver_probe(data)) return driver;
+            if (driver_probe(data)) {
+                _print("Drv Man: new driver received for device\n", 50);
+                return driver;
+            }
             else continue;
         }
 
